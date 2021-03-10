@@ -2,7 +2,7 @@ import React from 'react';
 import './ExtenedDetails.css';
 
 const ExtenedDetails = (props) => {
-    const {intFormedYear, strBadge,strCountry,strFacebook,strGender, strLeague,strTwitter,strYoutube ,strDescriptionEN,strDescriptionES} = props.leauge;
+    const {intFormedYear, strBadge,strCountry,strFacebook,strGender, strLeague,strTwitter,strYoutube ,strDescriptionEN,strDescriptionES,strSport} = props.leauge;
     console.log(props.leauge);
     return (
         <div>
@@ -17,7 +17,7 @@ const ExtenedDetails = (props) => {
                 <h3>{strLeague}</h3>
                 <p>Founded : {intFormedYear}</p>
                 <p>Country : {strCountry}</p>
-                <p>Sports Type : Football</p>
+                <p>Sports Type : {strSport}</p>
                 <p>Gender : {strGender}</p>
                 </div>
                 <div>
