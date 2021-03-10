@@ -1,0 +1,26 @@
+.details-bg{
+    background-image: url('../../Photo/awseme-covered-football-stadium-website-header.jpg');
+    background-size: 100% 250px;
+   text-align: center;
+   background-repeat: no-repeat;
+}
+.details-bg img{
+    width: 200px;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+.cardStyle{
+    display: grid;
+        grid-template-columns: repeat(2 , 1fr);
+        background-color:chocolate;
+       
+}
+.extenedStyle{
+    background-color: rgba(30, 30, 155, 0.5);
+     padding-left: 50px;
+        padding-right: 50px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+}

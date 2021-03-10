@@ -1,0 +1,12 @@
+.leauge{
+    margin: 5px;
+    padding: 10px;
+    background-color:chocolate;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    border-radius: 10px;
+}
+.leauge img{
+    width: 200px;
+}

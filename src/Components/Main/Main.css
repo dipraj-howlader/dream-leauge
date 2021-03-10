@@ -1,0 +1,10 @@
+.main{
+        display: grid;
+        grid-template-columns: repeat(3 , 1fr);
+        background-color: rgba(30, 30, 155, 0.5);
+        padding-left: 50px;
+        padding-right: 50px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        
+}

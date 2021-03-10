@@ -1,0 +1,17 @@
+.body-style{
+     background-image: url('../Photo/awseme-covered-football-stadium-website-header.jpg');
+     background-size: 100% 250px;
+    text-align: center;
+    background-repeat: no-repeat;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+.body-style h2{
+    padding: 100px;
+    color: #FF851B;
+    text-shadow: 2px 2px 2px gray;
+    font-family: "Times New Roman", Times, serif;
+    font-weight: bolder;
+}
