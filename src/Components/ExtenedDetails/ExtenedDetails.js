@@ -57,9 +57,9 @@ const ExtenedDetails = (props) => {
                     <br />
                     <p>{strDescriptionES}</p>
                     <div className="social-icon">
-                        <a href={`https://${strFacebook}`} target="_blank" ><FontAwesomeIcon icon={faFacebook} size="2x" /> </a>
-                        <a href={`https://${strTwitter}`} target="_blank"> <FontAwesomeIcon icon={faTwitter}  size="2x"/> </a>
-                        <a href={`https://${strYoutube}`} target="_blank"> <FontAwesomeIcon icon={faYoutube}  size="2x"/> </a>
+                        <a href={`https://${strFacebook}`} ><FontAwesomeIcon icon={faFacebook} size="2x" /> </a>
+                        <a href={`https://${strTwitter}`} ><FontAwesomeIcon icon={faTwitter}  size="2x"/> </a>
+                        <a href={`https://${strYoutube}`} > <FontAwesomeIcon icon={faYoutube}  size="2x"/> </a>
                     </div>
 
                 </div>
