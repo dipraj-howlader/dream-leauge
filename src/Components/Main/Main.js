@@ -4,7 +4,7 @@ import './Main.css'
 
 const Main = () => {
     const [leauges, setLeauge] = useState([]);
-    const sliceLeauges = leauges.slice(3,22);
+    const sliceLeauges = leauges.slice(4,22);
     useEffect(() => {
         fetch('https://www.thesportsdb.com/api/v1/json/1/all_leagues.php')
         .then(res => res.json())
