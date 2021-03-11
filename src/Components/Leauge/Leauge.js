@@ -16,7 +16,7 @@ const Leauge = (props) => {
         fetch(url)
             .then(res => res.json())
             .then(data => setLeauge(data.leagues))
-    }, []);
+    }, [idLeague]);
 
     console.log(leauge);
     return (
