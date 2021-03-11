@@ -5,7 +5,7 @@ const Home = () => {
     return (
         <div>
             <div className="body-style">
-        <h2>Dream Leauge</h2>    
+        <h2>Dream League</h2>    
             </div>
             <div>
          <Main></Main>   

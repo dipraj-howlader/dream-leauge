@@ -16,23 +16,22 @@ const Leauge = (props) => {
         fetch(url)
             .then(res => res.json())
             .then(data => setLeauge(data.leagues))
-    }, [idLeague]);
+    }, []);
 
     console.log(leauge);
     return (
         <div className="leauge">
             {
-                leauge.map(photo => (<img src={photo.strBadge} alt="" />))
+                leauge.map(photo => ( <img src={photo.strBadge} alt="" />))
             }
             <h2>{strLeague}</h2>
             {
-                leauge.map(sptype => <p>Sports type: {sptype.strSport}</p>)
+                leauge.map(sptype => <p>Sports type: {sptype.strSport}</p> )
             }
-
+            
             <Link style={{ textDecoration: 'none' }} to={`/league/${idLeague}`}> <Button variant="contained" color="primary">
                 Explore <FontAwesomeIcon icon={faArrowRight} />
             </Button></Link>
-           
         </div>
     );
 };
