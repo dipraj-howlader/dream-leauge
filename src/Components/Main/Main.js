@@ -18,6 +18,7 @@ const Main = () => {
             {
                 sliceLeauges.map(leauge => <Leauge leauge={leauge}></Leauge> )
             }
+            
         </div>
     );
 };

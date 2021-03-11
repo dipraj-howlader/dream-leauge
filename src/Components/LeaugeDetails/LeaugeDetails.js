@@ -11,7 +11,7 @@ const LeaugeDetails = () => {
         fetch(url)
             .then(res => res.json())
             .then(data => setLeauge(data.leagues))
-    }, []);
+    }, [idLeague]);
 
 
     return (
