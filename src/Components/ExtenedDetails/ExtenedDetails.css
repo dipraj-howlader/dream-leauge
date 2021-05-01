@@ -6,9 +6,9 @@
 
 .details-bg{
     background-image: url('../../Photo/awseme-covered-football-stadium-website-header.jpg');
-    
+  /* ba   */
 }
-
+  
  @media (min-width:320px)  { 
     .details-bg{
     background-size: 100% 100%;
